@@ -1,0 +1,124 @@
+version: 1
+plugins:
+  # ── Nanite: Core ────────────────────────────────────────────
+  - name: agentrc
+    version: 0.1.0
+    description: "Syncs .agentrc agent definitions into database"
+    author: Hollis Labs
+    repo: hollis-labs/nanite-plugin-agentrc
+    archive_url: ""
+    checksum: ""
+    runtime: builtin
+    tags: [nanite, core]
+
+  - name: agent-widgets
+    version: 0.1.0
+    description: "Agent status and MCP tools discovery widgets"
+    author: Hollis Labs
+    repo: hollis-labs/nanite-plugin-agent-widgets
+    archive_url: ""
+    checksum: ""
+    runtime: builtin
+    tags: [nanite, core]
+
+  - name: context-widgets
+    version: 0.1.0
+    description: "Session context and token usage widgets"
+    author: Hollis Labs
+    repo: hollis-labs/nanite-plugin-context-widgets
+    archive_url: ""
+    checksum: ""
+    runtime: builtin
+    tags: [nanite, core]
+
+  - name: debug-widgets
+    version: 0.1.0
+    description: "Developer-mode debug widgets (broker, slots, turns)"
+    author: Hollis Labs
+    repo: hollis-labs/nanite-plugin-debug-widgets
+    archive_url: ""
+    checksum: ""
+    runtime: builtin
+    tags: [nanite, core]
+
+  - name: observability-widgets
+    version: 0.1.0
+    description: "LLM execution metrics and telemetry widget"
+    author: Hollis Labs
+    repo: hollis-labs/nanite-plugin-observability-widgets
+    archive_url: ""
+    checksum: ""
+    runtime: builtin
+    tags: [nanite, core]
+
+  - name: bookmarks
+    version: 0.1.0
+    description: "Bookmarked messages quick-access widget"
+    author: Hollis Labs
+    repo: hollis-labs/nanite-plugin-bookmarks
+    archive_url: ""
+    checksum: ""
+    runtime: builtin
+    tags: [nanite, core]
+
+  # ── Nanite: Default ─────────────────────────────────────────
+  - name: giphy
+    version: 0.1.0
+    description: "Giphy GIF search via !giphy command"
+    author: Hollis Labs
+    repo: hollis-labs/nanite-plugin-giphy
+    archive_url: ""
+    checksum: ""
+    runtime: builtin
+    tags: [nanite, default]
+
+  - name: oembed
+    version: 0.1.0
+    description: "Rich URL previews for YouTube, Spotify, and oEmbed providers"
+    author: Hollis Labs
+    repo: hollis-labs/nanite-plugin-oembed
+    archive_url: ""
+    checksum: ""
+    runtime: builtin
+    tags: [nanite, default]
+
+  - name: session-stats
+    version: 0.1.0
+    description: "Session statistics tracking and display"
+    author: Hollis Labs
+    repo: hollis-labs/nanite-plugin-session-stats
+    archive_url: ""
+    checksum: ""
+    runtime: builtin
+    tags: [nanite, default]
+
+  - name: fragments-engine
+    version: 0.1.0
+    description: "Fragments Engine MCP integration for sprint planning and tasks"
+    author: Hollis Labs
+    repo: hollis-labs/nanite-plugin-fragments-engine
+    archive_url: ""
+    checksum: ""
+    runtime: builtin
+    tags: [nanite, default]
+
+  - name: support-ticket
+    version: 0.1.0
+    description: "IT self-service support with KB search and ticket management"
+    author: Hollis Labs
+    repo: hollis-labs/nanite-plugin-support-ticket
+    archive_url: ""
+    checksum: ""
+    runtime: builtin
+    tags: [nanite, default]
+
+  # ── Engine ──────────────────────────────────────────────────
+  - name: engine-tasks
+    version: 0.1.0
+    description: "Dual-backend task adapter for Nanite CLI and file-based storage"
+    author: Hollis Labs
+    repo: hollis-labs/engine-plugin-tasks
+    archive_url: ""
+    checksum: ""
+    runtime: builtin
+    tags: [engine, default]
